@@ -1,3 +1,6 @@
+# CPF stands for "individual registration" and is a number that the brazilian government uses to keep track of the population, it's like an ID number,
+# this code is capable of creating a CPF compatible to the model used by the governments and also to check if a CPF is valid or not
+
 import random
 from time import sleep
 
