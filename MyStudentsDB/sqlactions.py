@@ -21,7 +21,7 @@ def _see_table(command):
     cursor.execute(command)
     rows = cursor.fetchall()
     for row in rows:
-        print(row)
+        print(" | ".join(str(k) for k in row))
 
 def see_entire_table():
     _see_table("SELECT * FROM students;")

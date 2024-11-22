@@ -147,13 +147,13 @@ def simulate():
 
 
 # ------------------------- Control Pannel
-mean_selling_price = 10
-num_of_persons = 30
-num_of_enterprises = 5 
-mean_salary = 3000
-mean_necessary_products_pmonth = 150
-mean_production = 3000
+mean_selling_price = 15
+num_of_persons = 5
+num_of_enterprises = 1 
+mean_salary = 2500
+mean_necessary_products_pmonth = 100
+mean_production = 10000
 crisis_multiplier = 1  # <--- Get this thing up with caution, it really can mess up everything
-num_of_months = 12
+num_of_months = 24
 
 simulate()
